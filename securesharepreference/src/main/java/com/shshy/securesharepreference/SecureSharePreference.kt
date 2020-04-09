@@ -74,6 +74,54 @@ object SecureSharePreference {
             }
     }
 
+    /**
+     * 移除某个key值已经对应的值
+     *
+     * @param context
+     * @param key
+     */
+    fun remove(context: Context, key: String, fileName: String = DEFAULT_FILE_NAME, keyToHashCode: Boolean = true) {
+        val sp = context.getSharedPreferences(fileName, Context.MODE_PRIVATE)
+        val editor = sp.edit()
+        editor.remove(if (keyToHashCode) "${key.hashCode()}" else key)
+        SharedPreferencesCompat.apply(editor)
+    }
+
+    /**
+     * 清除所有数据
+     *
+     * @param context
+     */
+    fun clear(context: Context, fileName: String = DEFAULT_FILE_NAME) {
+        val sp = context.getSharedPreferences(fileName, Context.MODE_PRIVATE)
+        val editor = sp.edit()
+        editor.clear()
+        SharedPreferencesCompat.apply(editor)
+    }
+
+
+    /**
+     * 查询某个key是否已经存在
+     *
+     * @param context
+     * @param key
+     * @return
+     */
+    fun contains(context: Context, key: String, fileName: String = DEFAULT_FILE_NAME, keyToHashCode: Boolean = true): Boolean {
+        val sp = context.getSharedPreferences(fileName, Context.MODE_PRIVATE)
+        return sp.contains(if (keyToHashCode) "${key.hashCode()}" else key)
+    }
+
+    /**
+     * 返回所有的键值对
+     *
+     * @param context
+     * @return
+     */
+    fun getAll(context: Context, fileName: String = DEFAULT_FILE_NAME): Map<String, *> {
+        val sp = context.getSharedPreferences(fileName, Context.MODE_PRIVATE)
+        return sp.all
+    }
 
     /**
      * 创建一个解决SharedPreferencesCompat.apply方法的一个兼容类
