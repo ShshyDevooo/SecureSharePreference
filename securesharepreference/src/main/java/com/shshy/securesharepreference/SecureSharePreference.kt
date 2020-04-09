@@ -34,7 +34,7 @@ object SecureSharePreference {
         val editor = sp.edit()
         val editKey = if (keyToHashCode) "${key.hashCode()}" else key
         val objectStr = if (encrypt) {
-            Base64.encode(KeyStoreRSA.getInstance().encrypt("$`object`".toByteArray()))
+            Base64.encode(KeyStoreRSA.getInstance().encryptSpilt("$`object`".toByteArray()))
         } else {
             "$`object`"
         }
@@ -59,7 +59,7 @@ object SecureSharePreference {
             val dataInFile = sp.getString(storeKey, null)
             if (dataInFile != null) {
                 val decryptByteArray = KeyStoreRSA.getInstance()
-                    .decrypt(Base64.decode(String(dataInFile.toByteArray())))
+                    .decryptSpilt(Base64.decode(String(dataInFile.toByteArray())))
                 if (decryptByteArray != null) {
                     String(decryptByteArray)
                 } else

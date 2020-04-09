@@ -13,6 +13,384 @@ class MainActivity : AppCompatActivity() {
      * @param key
      * @param defaultObject
      * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
+     * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
+     *
+     * @param context
+     * @param key
+     * @param defaultObject
+     * @return
      */"""
     private val float = 1.26156f
     private val int = 13234
