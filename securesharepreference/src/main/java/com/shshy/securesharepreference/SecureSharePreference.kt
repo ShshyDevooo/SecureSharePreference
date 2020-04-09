@@ -21,7 +21,14 @@ object SecureSharePreference {
      * @param key
      * @param object
      */
-    fun put(context: Context, key: String, `object`: Any, fileName: String = DEFAULT_FILE_NAME, keyToHashCode: Boolean = true, encrypt: Boolean = true) {
+    fun put(
+        context: Context,
+        key: String,
+        `object`: Any,
+        fileName: String = DEFAULT_FILE_NAME,
+        keyToHashCode: Boolean = true,
+        encrypt: Boolean = true
+    ) {
         KeyStoreRSA.getInstance().generateKey(context)
         val sp = context.getSharedPreferences(fileName, Context.MODE_PRIVATE)
         val editor = sp.edit()
@@ -44,14 +51,15 @@ object SecureSharePreference {
      * @param defaultObject
      * @return
      */
-    fun get(context: Context, key: String, defaultObject: Any, fileName: String = DEFAULT_FILE_NAME, keyToHashCode: Boolean = true, decrypt: Boolean = true): Any? {
+    fun <T> get(context: Context, key: String, defaultObject: T, fileName: String = DEFAULT_FILE_NAME, keyToHashCode: Boolean = true, decrypt: Boolean = true): T? {
         KeyStoreRSA.getInstance().generateKey(context)
         val sp = context.getSharedPreferences(fileName, Context.MODE_PRIVATE)
         val storeKey = if (keyToHashCode) "${key.hashCode()}" else key
         val valueStr = if (decrypt) {
             val dataInFile = sp.getString(storeKey, null)
             if (dataInFile != null) {
-                val decryptByteArray = KeyStoreRSA.getInstance().decrypt(Base64.decode(String(dataInFile.toByteArray())))
+                val decryptByteArray = KeyStoreRSA.getInstance()
+                    .decrypt(Base64.decode(String(dataInFile.toByteArray())))
                 if (decryptByteArray != null) {
                     String(decryptByteArray)
                 } else
@@ -65,12 +73,12 @@ object SecureSharePreference {
             defaultObject
         else
             when (defaultObject) {
-                is String -> valueStr
-                is Int -> valueStr.toInt()
-                is Boolean -> valueStr.toBoolean()
-                is Float -> valueStr.toFloat()
-                is Long -> valueStr.toLong()
-                else -> null
+                is String -> valueStr as T?
+                is Int -> valueStr.toInt() as T?
+                is Boolean -> valueStr.toBoolean() as T?
+                is Float -> valueStr.toFloat() as T?
+                is Long -> valueStr.toLong() as T?
+                else -> defaultObject
             }
     }
 
@@ -80,7 +88,12 @@ object SecureSharePreference {
      * @param context
      * @param key
      */
-    fun remove(context: Context, key: String, fileName: String = DEFAULT_FILE_NAME, keyToHashCode: Boolean = true) {
+    fun remove(
+        context: Context,
+        key: String,
+        fileName: String = DEFAULT_FILE_NAME,
+        keyToHashCode: Boolean = true
+    ) {
         val sp = context.getSharedPreferences(fileName, Context.MODE_PRIVATE)
         val editor = sp.edit()
         editor.remove(if (keyToHashCode) "${key.hashCode()}" else key)
@@ -107,7 +120,12 @@ object SecureSharePreference {
      * @param key
      * @return
      */
-    fun contains(context: Context, key: String, fileName: String = DEFAULT_FILE_NAME, keyToHashCode: Boolean = true): Boolean {
+    fun contains(
+        context: Context,
+        key: String,
+        fileName: String = DEFAULT_FILE_NAME,
+        keyToHashCode: Boolean = true
+    ): Boolean {
         val sp = context.getSharedPreferences(fileName, Context.MODE_PRIVATE)
         return sp.contains(if (keyToHashCode) "${key.hashCode()}" else key)
     }
